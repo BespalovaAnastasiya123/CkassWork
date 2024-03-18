@@ -1,0 +1,41 @@
+public class IntroDemo {
+    public static void main(String[] args) {
+        /*
+        //Сложение двух чисел
+        int a=2;
+        int b = a+3;
+         */
+
+        /*
+        //Сложение трех чисел
+        int a = 1;
+        int b = 2;
+        int c = a+b+1;
+         */
+
+        //Вызов функции
+        int a=1;
+        int b=2;
+        int c = calc(a,b);
+    }
+
+    public static int calc(int a, int b){
+        return (int)Math.sqrt(a+b);
+    }
+}
+alex говорит:public class StringDemo {
+    public static void main(String[] args) {
+        String s1 = "1"+"2";
+        String s2 = new StringBuilder()
+                .append("1")
+                .append("2")
+                .toString();
+    }
+}
+alex говорит:public class ArrayDemo {
+    public static void main(String[] args) {
+        int arr[] = new int[]{1,2};
+        for (int n:arr)
+            System.out.println(n);
+    }
+}
